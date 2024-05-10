@@ -4,6 +4,8 @@
     <title>Title</title>
 </head>
 <body>
-hihihi
+Username:${a}
+<br/>
+Password:${b}
 </body>
 </html>
