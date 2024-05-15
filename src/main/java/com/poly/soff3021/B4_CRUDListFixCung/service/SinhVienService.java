@@ -44,7 +44,7 @@ public class SinhVienService {
         }
     }
 
-    public SinhVien updateSinhVien(String maSV){
+    public SinhVien detailSinhVien(String maSV){
         for(int i = 0 ; i < lists.size();i++){
             // neu tim thay doi tuong sv can xoa
             if(lists.get(i).getMssv().equalsIgnoreCase(maSV)){

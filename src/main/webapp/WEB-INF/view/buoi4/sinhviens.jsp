@@ -33,7 +33,12 @@
             <td>${list.diaChi}</td>
             <td>${list.gioiTinh}</td>
             <td colspan="2">
-                <a href="">Them</a>
+                <button><a href="/sinh-vien/view-update/${list.mssv}">Update</a></button>
+                <%--   C1: Giong J4: Dung dau ?=> ben controller: @RequestParam("")--%>
+<%--                <button><a href="/sinh-vien/remove?ma1=${list.mssv}">Delete</a></button>--%
+                <%--   C2: J5: Source luon tren duong dan--%>
+                <button><a href="/sinh-vien/remove/${list.mssv}">Delete</a></button>
+                <button><a href="/sinh-vien/detail/${list.mssv}">Detail</a></button>
             </td>
         </tr>
     </c:forEach>
