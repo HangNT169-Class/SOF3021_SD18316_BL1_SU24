@@ -15,7 +15,7 @@ public interface CategoryRepository extends JpaRepository<Category1, Long> {
     // Custom Query
     // C1: Query creation
     // C2: raw SQL
-    // C1:
+    // C1: https://techmaster.vn/posts/37540/tim-hieu-ve-cac-method-query-co-san-trong-spring-data-jpa
     Category1 findCategory1ByIdAndCategoryCode(Long id, String categoryCode);
     // => ten dai
     // C2.1: JPQL => truy van tren thuc the
