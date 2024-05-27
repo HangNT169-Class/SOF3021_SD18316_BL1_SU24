@@ -11,6 +11,7 @@
         <th>ID</th>
         <th>Category Code</th>
         <th>Category Name</th>
+
     </tr>
     </thead>
     <tbody>
@@ -19,6 +20,7 @@
             <td>${CT.id}</td>
             <td>${CT.categoryCode}</td>
             <td>${CT.categoryName}</td>
+
         </tr>
     </c:forEach>
     </tbody>
